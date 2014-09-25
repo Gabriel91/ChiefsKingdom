@@ -1,0 +1,33 @@
+/* Nested Components */
+.surveyor {
+  border: 1px solid #ccc;
+  padding: 20px;
+	h2 {
+  	font-size: 18px;
+		a {
+  		color: green;
+		}	
+  }	
+}
+
+.notice {
+  background: yellow;
+  border: 5px solid #000;
+  padding: 20px;
+  &.alert {
+  background: red;
+  box-shadow: 0 0 10px red;
+	}
+}
+
+.notice {
+  background: yellow;
+  border: 5px solid #000;
+  padding: 20px;
+  a {
+    color: #222;
+    &:hover {
+      color: #313131;
+    }
+  }
+}
