@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Exploration 3",
-  "description": "This extension demonstrates a 'browser action' with kittens.",
+  "description": "My basic extension takes a message from the user that could be used as a command",
   "version": "1.0",
 
   "browser_action": {
