@@ -1,0 +1,77 @@
+Press Enter to submit, or type 'help' and press Enter for info on using the console
+
+$ checkout kennel
+
+$ git checkout kennel
+
+$ git rebase kennel
+
+$ git rebase --master kennel
+
+$ git rebase master
+
+$ git checkout master
+
+$ git status
+
+$ git merge
+
+$ git merge kennel
+
+$ git checkout origin master
+
+$ git fetch
+
+$ git rebase origin master
+
+$ git rebase master
+
+$ git rebase origin/master
+
+$ git fetch
+
+$ git rebase master
+
+$ git rebase origin/master
+
+//Rebase conflict
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Our Cat-alog</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+<<<<<<< HEAD
+        <li><a href="cat.html">Cats</a></li>
+        <li><a href="dog.html">Dogs</a></li>
+=======
+        <li><a href="cat.html">Felines</a></li>
+        <li><a href="dog.html">Canines</a></li>
+>>>>>>> Add dogs.
+      </ul>
+    </nav>
+  </body>
+</html>
+
+//answer
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Our Cat-alog</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="cat.html">Cats</a></li>
+        <li><a href="dog.html">Dogs</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
+
+
+$ git rebase --continue

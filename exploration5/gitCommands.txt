@@ -1,0 +1,45 @@
+Git Master
+Find info about any Git command:
+git help <command>	Ex: git help config- pulls up a help menu of configuration settings
+
+Basic set up:
+git config --global user.name “Mexicutioner”
+git config --global user.email gdpfhc@mail.missouri.edu
+git config --global color.ui true		Cool command line colors
+git init		Create a local git repo
+git remote add origin https://github.com/myRepository.git	add remote repository
+
+Basic file manipulation:
+git add directory/		Adds an entire directory to the staging area
+git log				Shows commit history
+Shows changes to a file since the last commit:
+1.	git diff				Shows the unstaged changes to a file
+2.	git diff --staged			Shows the staged changes to a file
+git commit -a -m “How did I not know this??”	Skips staging to commit an existing (changed) file
+git push -u origin master		push local branch (master) to remote repository (origin)
+	-u designates origin as the default destination
+		allowing me to use ‘git push’ by itself next time
+git pull					pull changes from remote to local branch
+
+Git Resests:
+HEAD- references the latest commit on the current branch
+HEAD^^-move back 2 number of commits. Use more/less carrots for more/less commits
+soft- reset into staging
+hard- undo last commit and all changes
+amend- add on to the last commit
+
+git reset HEAD <filename> unstage a change
+git commit --amend -m “Also very useful”	add a file to the last commit and amend message
+OR
+git reset --soft HEAD^ 				go back one commit and edit staging
+	Ex: if I forgot to include a file in a commit
+git reset --hard HEAD^				undo last commit and all changes
+
+Interesting facts:
+•	Git does not do access control
+o	Access control software
+	Hosted solution:
+•	Github or BitBucket
+	Self managed
+•	Gitosis
+•	Gitorious

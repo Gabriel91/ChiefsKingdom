@@ -1,0 +1,56 @@
+Git Press Enter to submit, or type 'help' and press Enter for info on using the console
+
+$ git push origin master
+
+$ git push origin hamsters
+
+
+$ git remote -v wease
+\
+$ git fetch remote wease
+
+$ git fetch origin
+
+$ git fetch
+
+$ git remote -v
+
+$ git branch
+
+$ git branch -r
+
+$ git branch -d weasel
+
+$ git push -d weasel
+
+$ git push weasel
+
+$ git push origin
+
+$ git push origin :weasel
+
+$ git prune origin
+
+$ git remote
+
+$ git remote show
+
+$ git remote origin show
+
+$ git remote show origin
+
+$ git prune origin
+
+$ git remote prune origin
+
+$ git tag
+
+$ git tag -a v.1.3.2 -m "adding a stupid new version
+
+$ git tag -a v.1.3.2 -m "adding a stupid new version"
+
+$ git tag -a v1.3.2 -m "adding a stupid new version"
+
+$ git push --tags
+
+$ git checkout "v1.3.1"
